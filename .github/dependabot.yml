@@ -6,6 +6,23 @@ updates:
     schedule:
       interval: weekly
       day: friday
+    target-branch: master
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+      day: friday
+    target-branch: v18.04
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+      day: friday
+    target-branch: v20.04
     open-pull-requests-limit: 10
 
   - package-ecosystem: github-actions
@@ -13,4 +30,21 @@ updates:
     schedule:
       interval: weekly
       day: friday
+    target-branch: master
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: friday
+    target-branch: v18.04
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: friday
+    target-branch: v20.04
     open-pull-requests-limit: 10
