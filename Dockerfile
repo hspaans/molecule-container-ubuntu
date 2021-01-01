@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20201106
+FROM ubuntu:bionic-20200921
 
 LABEL org.opencontainers.image.description="Ubuntu container for Molecule"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/molecule-container-ubuntu
