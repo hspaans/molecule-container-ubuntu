@@ -1,8 +1,8 @@
 # Ubuntu Container for Molecule
 
-An [Ubuntu][ubuntu] based container image for testing [Ansible][ansible] Roles with [Molecule][molecule].
+An [Ubuntu][ubuntu] based container image for testing [Ansible][ansible] Roles with [Molecule][molecule]. The [repository][docker-ubuntu2004-ansible] from [Jeff Geerling][geerlingguy] was taken as starting point to create the repository.
 
-## Example
+## Example Molecule scenario
 
 The example `molecule.yml` below is a scenario to run test on Ubuntu 20.04 (Focal).
 
@@ -42,6 +42,8 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 | Ubuntu   | 20.10 (Groovy) | [hspaans/molecule-container-ubuntu:latest][molecule-container-ubuntu:latest] |
 
 [ansible]: https://github.com/ansible/ansible
+[docker-ubuntu2004-ansible]: https://github.com/geerlingguy/docker-ubuntu2004-ansible
+[geerlingguy]: https://github.com/geerlingguy
 [molecule]: https://github.com/ansible-community/molecule
 [molecule-container-ubuntu:latest]: ghcr.io/hspaans/molecule-container-ubuntu:latest
 [molecule-container-ubuntu:18.04]: ghcr.io/hspaans/molecule-container-ubuntu:18.04
