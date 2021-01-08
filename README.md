@@ -39,7 +39,7 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 |:--------:|:--------------:|:----------------------------------------------------------------------------:|
 | Ubuntu   | 18.04 (Bionic) | [hspaans/molecule-container-ubuntu:18.04][molecule-container-ubuntu:18.04]   |
 | Ubuntu   | 20.04 (Focal)  | [hspaans/molecule-container-ubuntu:20.04][molecule-container-ubuntu:20.04]   |
-| Ubuntu   | 20.10 (Groovy) | [hspaans/molecule-container-ubuntu:latest][molecule-container-ubuntu:latest] |
+| Ubuntu   | 21.04 (Hirsute) | [hspaans/molecule-container-ubuntu:latest][molecule-container-ubuntu:latest] |
 
 [ansible]: https://github.com/ansible/ansible
 [docker-ubuntu2004-ansible]: https://github.com/geerlingguy/docker-ubuntu2004-ansible
