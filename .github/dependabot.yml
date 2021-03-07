@@ -39,7 +39,6 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: weekly
-      day: friday
+      interval: daily
     target-branch: v20.04
     open-pull-requests-limit: 10
