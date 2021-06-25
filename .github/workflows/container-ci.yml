@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the code
+      - name: Checkout Code
         uses: actions/checkout@v2
 
       - name: Run tests
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout the code
+      - name: Checkout Code
         uses: actions/checkout@v2
 
       - name: Build the Docker image
